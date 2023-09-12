@@ -24,7 +24,9 @@ public class Dog extends Pet {
     }
 
     // Exercise 4
-    public String makeNoise() {return DOG_NOISE;}
+    public String makeNoise() {
+        return DOG_NOISE;
+    }
 
     public void feed() {
         this.isFed = true;
@@ -34,4 +36,7 @@ public class Dog extends Pet {
     public String play() {
         return "plays with bone";
     }
+
 }
+
+
